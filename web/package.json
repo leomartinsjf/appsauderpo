@@ -6,8 +6,6 @@
   "scripts": {
     "dev": "next",
     "build": "next build && next export && node exportSitemap.js",
-    "format": "prettier-eslint --write \"**/*.js\" \"!.next/**\" \"!node_modules/**\" \"!out/**\"",
-    "lint": "eslint .",
     "start": "next start"
   },
   "dependencies": {
